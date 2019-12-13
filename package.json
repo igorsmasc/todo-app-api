@@ -2,11 +2,17 @@
   "name": "todo-app-api",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/loader.js",
   "scripts": {
-    "start": "nodemon src/index.js localhost 8080"
+    "start": "nodemon src/loader.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "mongoose": "4.7.0",
+    "node-restful": "0.2.6",
+    "pm2": "2.1.5"
+  },
   "devDependencies": {
     "nodemon": "1.18.4"
   },
